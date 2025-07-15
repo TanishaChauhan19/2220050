@@ -13,14 +13,14 @@ Url Shortner
 Logging Middleware
 •	Custom Logger: All logging (info, error, etc.) is routed through a custom logger (logger.js), which sends logs to a remote evaluation service instead of using console.log.
 
-3. Key Functional Flows
-A. URL Shortening Flow
-1.	User Input: User can enter up to 5 URLs, with optional validity and custom shortcode.
-2.	Validation: Client-side validation checks URL format, validity (integer), and shortcode rules.
-3.	Submission: On submit, the component:
+3. URL Shortening Flow
+    1.	User Input: User can enter up to 5 URLs, with optional validity and custom shortcode.
+    2.	Validation: Client-side validation checks URL format, validity (integer), and shortcode rules.
+    3.	Submission: On submit, the component:
 •	Calls the backend API for each valid entry.
 •	Handles and displays errors per entry.
 •	Shows the resulting short URLs and their expiry.
+
 4.	Logging: All major actions (mount, add/remove, submit, API call, error) are logged using the custom logger.
 
 
