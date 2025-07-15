@@ -1,12 +1,12 @@
 Url Shortner
-Frontend
+1. Frontend
 •	Framework: React (with Material UI for UI components)
 •	Main Components:
 •	App.js: The root component, responsible for rendering the main URL shortener interface.
 •	UrlShortener.js: Contains all the logic and UI for the URL shortening form, validation, and result display.
 •	Styling: Uses Material UI’s system and some default CSS for layout and appearance.
 
-Backend
+2. Backend
 
 •	Assumed API: The frontend expects a backend API endpoint (e.g., POST /api/shorten) to handle URL shortening requests.
 •	Note: In this current setup, the backend is not implemented in this repo, but the frontend is designed to interact with such an API.
